@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e9f8; /* Lavender Purple */
+}
+
+/* Header Styles */
+header {
+    background-color: #ddbbff;
+    padding: 20px;
+}
+
+h1 {
+    color: #663399;
+    margin: 0;
+    font-size: 24px;
+}
+
+ul.personal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.personal li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+section.block {
+    margin-bottom: 30px;
+}
+
+h2.headings-text {
+    color: #663399;
+    font-size: 20px;
+    margin: 0;
+}
+
+.story p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Portfolio Styles */
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pro-img {
+    width: 200px;
+    height: auto;
+}
+
+.pro-cap {
+    color: #663399;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #cc99ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.links p,
+.links a {
+    color: #663399;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
